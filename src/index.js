@@ -8,7 +8,7 @@ import App from './App';
 
 // render App component in its JSX format to the target we created
 ReactDOM.render(
-    <App />, 
+    <App cat={5} />, 
     document.getElementById('root')
 );
 
