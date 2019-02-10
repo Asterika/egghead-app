@@ -1,12 +1,14 @@
+// library that allows us to build React components
 import React from 'react';
+// allows us to work with components in context of the DOM
 import ReactDOM from 'react-dom';
-import './index.css';
+// import App component
 import App from './App';
-import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// render App component in its JSX format to the target we created
+ReactDOM.render(
+    <App />, 
+    document.getElementById('root')
+);
+
